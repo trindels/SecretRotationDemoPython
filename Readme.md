@@ -1,6 +1,17 @@
 # Automated Secret Rotation Demo
+This Automated Secret Rotation Demo is designed to demonstrate a secure, 
+passwordless, non-interactive method for rotating secrets for Microsoft 
+Entra ID App Registrations. This platform utilizes Key Vaults for storing
+secrets. Event Grid System Topic Subscriptions and Function Apps support
+the automation of this process. System Managed Identities are leveraged 
+for creating, updating, and retrieving secrets. All System Managed 
+Identities are granted permissions with consideration to the principals 
+of least privilege.
 
-## Deployment
+## Deployment Activities
+Deployment activities are supported using Az Powershell Modules, MS Graph 
+Powershell Modules, and Visual Studio Code.  These steps are intended to
+be executed in sequential order due to resource and permission dependencies.
 
 ### (1) Create Secret Rotation Infrastructure
 Requirements:
@@ -75,6 +86,8 @@ Steps:
     - Grant Web App Managed Identity GET access to Key Vault
 
 ## Post-Demo Cleanup Activities
+Once this demo environment is no longer needed, please remember to clean up resources.
+
 Requirements:
 - Az Powershell Modules
 - MS Graph Powershell Modules
