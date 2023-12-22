@@ -1,12 +1,17 @@
 # Automated Secret Rotation Demo
 This Automated Secret Rotation Demo is designed to demonstrate a secure, 
 passwordless, non-interactive method for rotating secrets for Microsoft 
-Entra ID App Registrations. This platform utilizes Key Vaults for storing
-secrets. Event Grid System Topic Subscriptions and Function Apps support
-the automation of this process. System Managed Identities are leveraged 
-for creating, updating, and retrieving secrets. All System Managed 
-Identities are granted permissions with consideration to the principals 
-of least privilege.  Please refer to <_SolutionDiagram.vsdx>_SolutionDiagram.vsdx for reference
+Entra ID App Registrations. 
+
+This platform utilizes Key Vaults for storing secrets. Event Grid System
+Topic Subscriptions and Function Apps support the automation of this
+process.
+
+System Managed Identities are leveraged for creating, updating, and
+retrieving secrets. All System Managed Identities are granted permissions
+with consideration to the principals of least privilege.  
+
+Please refer to <_SolutionDiagram.vsdx>_SolutionDiagram.vsdx for reference
 architecture diagrams.
 
 ## Deployment Activities
