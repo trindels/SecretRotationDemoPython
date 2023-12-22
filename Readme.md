@@ -11,7 +11,7 @@ System Managed Identities are leveraged for creating, updating, and
 retrieving secrets. All System Managed Identities are granted permissions
 with consideration to the principals of least privilege.  
 
-Please refer to <_SolutionDiagram.vsdx>_SolutionDiagram.vsdx for reference
+Please refer to ![_SolutionDiagram.vsdx](_SolutionDiagram.vsdx) for reference
 architecture diagrams.
 
 ## Deployment Activities
